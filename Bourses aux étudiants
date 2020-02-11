@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2020-02-08T23:15:59.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="kJJQMaa2QgGTxBNuEVDL" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-11T09:25:19.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="z8ybvcr2WqgPlMWUOUbM" version="12.6.7" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="2062" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="704" dy="1330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-9" value="Bourses aux étudiants" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-9" value="Bourses aux étudiants" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="430" width="600" height="390" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-10" value="Etudiant" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-9">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-10" value="Etudiant" style="swimlane;html=1;startSize=20;horizontal=0;" parent="EPyme_ZEHhVfcvFy0rBW-9" vertex="1">
           <mxGeometry x="20" width="580" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EPyme_ZEHhVfcvFy0rBW-10" source="7a84cebc1def654-1">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EPyme_ZEHhVfcvFy0rBW-10" source="7a84cebc1def654-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="60" as="targetPoint"/>
           </mxGeometry>
@@ -18,57 +18,57 @@
         <mxCell id="7a84cebc1def654-1" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=standard;symbol=general;" parent="EPyme_ZEHhVfcvFy0rBW-10" vertex="1">
           <mxGeometry x="50" y="35" width="50" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-6" value="Déposer dossier de bourse" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-10">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-6" value="Dépôt du dossier de bourse" style="html=1;whiteSpace=wrap;rounded=1;" parent="EPyme_ZEHhVfcvFy0rBW-10" vertex="1">
           <mxGeometry x="170" y="20" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-7" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-6">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-7" value="" style="html=1;shape=plus;outlineConnect=0;" parent="EPyme_ZEHhVfcvFy0rBW-6" vertex="1">
           <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
             <mxPoint x="-7" y="-14" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-11" value="Gestionnaire" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-9">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-11" value="Gestionnaire" style="swimlane;html=1;startSize=20;horizontal=0;" parent="EPyme_ZEHhVfcvFy0rBW-9" vertex="1">
           <mxGeometry x="20" y="120" width="580" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-13" value="Instruire le dossier" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-11">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-13" value="Instruction du dossier" style="html=1;whiteSpace=wrap;rounded=1;" parent="EPyme_ZEHhVfcvFy0rBW-11" vertex="1">
           <mxGeometry x="170" y="30" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-14" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-13">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-14" value="" style="html=1;shape=plus;outlineConnect=0;" parent="EPyme_ZEHhVfcvFy0rBW-13" vertex="1">
           <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
             <mxPoint x="-7" y="-14" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-19" value="Payer les bourses" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-11">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-19" value="Paiement des bourses" style="html=1;whiteSpace=wrap;rounded=1;" parent="EPyme_ZEHhVfcvFy0rBW-11" vertex="1">
           <mxGeometry x="330" y="30" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-20" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-19">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-20" value="" style="html=1;shape=plus;outlineConnect=0;" parent="EPyme_ZEHhVfcvFy0rBW-19" vertex="1">
           <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
             <mxPoint x="-7" y="-14" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-12" value="Elu" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-9">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-12" value="Elu" style="swimlane;html=1;startSize=20;horizontal=0;" parent="EPyme_ZEHhVfcvFy0rBW-9" vertex="1">
           <mxGeometry x="20" y="260" width="580" height="130" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-16" value="Voter attribution de bourses" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-12">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-16" value="Vote d&#39;attribution des bourses" style="html=1;whiteSpace=wrap;rounded=1;" parent="EPyme_ZEHhVfcvFy0rBW-12" vertex="1">
           <mxGeometry x="170" y="25" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-17" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="EPyme_ZEHhVfcvFy0rBW-16">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-17" value="" style="html=1;shape=plus;outlineConnect=0;" parent="EPyme_ZEHhVfcvFy0rBW-16" vertex="1">
           <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
             <mxPoint x="-7" y="-14" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-6" target="EPyme_ZEHhVfcvFy0rBW-13">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-6" target="EPyme_ZEHhVfcvFy0rBW-13" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-13" target="EPyme_ZEHhVfcvFy0rBW-16">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-13" target="EPyme_ZEHhVfcvFy0rBW-16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-16" target="EPyme_ZEHhVfcvFy0rBW-19">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EPyme_ZEHhVfcvFy0rBW-9" source="EPyme_ZEHhVfcvFy0rBW-16" target="EPyme_ZEHhVfcvFy0rBW-19" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-22" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-22" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=general;" parent="1" vertex="1">
           <mxGeometry x="620" y="595" width="50" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="EPyme_ZEHhVfcvFy0rBW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPyme_ZEHhVfcvFy0rBW-19" target="EPyme_ZEHhVfcvFy0rBW-22">
+        <mxCell id="EPyme_ZEHhVfcvFy0rBW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EPyme_ZEHhVfcvFy0rBW-19" target="EPyme_ZEHhVfcvFy0rBW-22" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
