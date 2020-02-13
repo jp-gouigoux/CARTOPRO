@@ -1,0 +1,16 @@
+<mxfile type="github" version="12.7.0" host="www.draw.io" modified="2020-02-13T16:09:20.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" etag="V_nZHxCft4v71hdlYUkI">
+  <diagram id="2a216829-ef6e-dabb-86c1-c78162f3ba2b" name="Page-1">
+    <mxGraphModel grid="1" shadow="0" math="0" background="#ffffff" pageHeight="827" pageWidth="1169" pageScale="1" page="1" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="10" dy="799" dx="1373">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="0wGvZcWWBIBgo1O4yZBb-1" value="Processus de dépôt d&#39;une demande" parent="1" vertex="1" style="swimlane;startSize=20;horizontal=0;">
+          <mxGeometry as="geometry" height="270" width="1040" y="80" x="40"/>
+        </mxCell>
+        <mxCell id="0wGvZcWWBIBgo1O4yZBb-2" value="" parent="0wGvZcWWBIBgo1O4yZBb-1" vertex="1" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;">
+          <mxGeometry as="geometry" height="50" width="50" y="110" x="60"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
