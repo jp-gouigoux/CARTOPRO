@@ -2,7 +2,7 @@
 <bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0q6c8h6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="6.3.0">
   <bpmn:collaboration id="Collaboration_00x0dx8">
     <bpmn:participant id="Participant_0ugqa7a" name="Demande de financement" processRef="Process_1m64l71" />
-    <bpmn:participant id="Participant_15wu811" name="Subventionnement" processRef="Process_05ty9uc" />
+    <bpmn:participant id="Participant_15wu811" name="Subventionnement par collectivité" processRef="Process_05ty9uc" />
     <bpmn:messageFlow id="MessageFlow_145wsta" sourceRef="Activity_1omayet" targetRef="Event_0usw7qw" />
   </bpmn:collaboration>
   <bpmn:process id="Process_1m64l71" isExecutable="false">
@@ -58,7 +58,7 @@
       <bpmn:incoming>Flow_1dcbbc8</bpmn:incoming>
       <bpmn:outgoing>Flow_0g7tnql</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:subProcess id="Activity_04wfsry" name="Création de compte utilisateur">
+    <bpmn:subProcess id="Activity_04wfsry" name="Connexion">
       <bpmn:incoming>Flow_1x1wx7a</bpmn:incoming>
       <bpmn:outgoing>Flow_0s158c1</bpmn:outgoing>
     </bpmn:subProcess>
