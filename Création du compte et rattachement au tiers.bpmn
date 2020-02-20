@@ -3,7 +3,7 @@
   <bpmn:collaboration id="Collaboration_0pj65m4">
     <bpmn:participant id="Participant_1ltzyyn" name="Connexion" processRef="Process_1ms5anq" />
     <bpmn:participant id="Participant_182nh4o" name="Compte en rattachement administrateur" />
-    <bpmn:participant id="Participant_0he91rg" processRef="Process_0208yzl" />
+    <bpmn:participant id="Participant_0he91rg" name="Autorisation rattachement" processRef="Process_0208yzl" />
     <bpmn:messageFlow id="MessageFlow_0de0roo" sourceRef="Event_1g7i7ez" targetRef="Participant_182nh4o" />
     <bpmn:messageFlow id="MessageFlow_0obg73v" sourceRef="Participant_182nh4o" targetRef="Event_1xebor3" />
     <bpmn:messageFlow id="MessageFlow_1ylddig" sourceRef="Participant_182nh4o" targetRef="Event_1xp7tbg" />
@@ -421,6 +421,42 @@
     </bpmn:intermediateThrowEvent>
   </bpmn:process>
   <bpmn:process id="Process_0208yzl">
+    <bpmn:laneSet id="LaneSet_177k6vb">
+      <bpmn:lane id="Lane_1mji331" name="Collectivité">
+        <bpmn:flowNodeRef>Activity_0ht889w</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_1dzs22z</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1sxhtuy</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0jcramn</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_18xt5qu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_02po6zr</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_0fuphql</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0jaf10j</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_0l8ud9d</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0euqrmi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_1xwo0v6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0iptacj</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1g7i7ez</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_03jvxs0</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1xebor3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1xp7tbg</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1v3hv52</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_1cbb57g</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1iw46z4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_06t2afp</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_17x5e3g</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_17qcwvm</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0laymlv</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_10rg99i</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_0lqw7jx</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0lg39i6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1xuo77c</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0kfttv7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_16jc5pl</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0ngm5oj</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1p1if3p</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_020lm9y</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
     <bpmn:businessRuleTask id="Activity_0ht889w" name="Vérifier existence du tiers">
       <bpmn:incoming>Flow_0z4fmnn</bpmn:incoming>
       <bpmn:outgoing>Flow_1xbz8ja</bpmn:outgoing>
@@ -1620,6 +1656,9 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="4193" y="702" width="55" height="14" />
         </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1mji331_di" bpmnElement="Lane_1mji331" isHorizontal="true">
+        <dc:Bounds x="186" y="810" width="4152" height="520" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
